@@ -1,0 +1,26 @@
+{
+  "en": {
+    "hello": "hello",
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "reports": "Reports",
+    "transformation": "Transformation",
+    "setting": "Settings"
+  },
+  "tr": {
+    "hello": "Merhaba",
+    "dashboard": "Dashboard",
+    "home": "Ana Sayfa",
+    "reports": "Raporlar",
+    "transformation": "Taşımacılık",
+    "setting": "Ayarlar"
+  },
+  "ar": {
+    "hello": "أهلا",
+    "dashboard": "لوحة القيادة",
+    "home": "الصفحة الرئيسية",
+    "reports": "التقارير",
+    "transformation": "تحويل",
+    "setting": "الإعدادات"
+  }
+}
