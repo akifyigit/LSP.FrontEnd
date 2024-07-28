@@ -229,7 +229,7 @@ const ScheduleClassById = () => {
           <Button
             className="bg-primary w-60 float-right mr-10 "
             textVariant="white"
-            text="Devam Et"
+            text="Schedule"
             onClick={() => {
               handleButtonClick();
             }}

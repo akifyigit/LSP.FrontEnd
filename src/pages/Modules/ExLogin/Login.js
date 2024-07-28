@@ -70,7 +70,7 @@ const Login = () => {
             onChange={handleInputOnChange}
           />
           <Button
-            text={'Giriş'}
+            text={'Login'}
             className="bg-primary p-3"
             textVariant="white"
             disabled={false}

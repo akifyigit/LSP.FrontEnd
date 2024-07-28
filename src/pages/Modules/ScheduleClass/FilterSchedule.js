@@ -226,7 +226,7 @@ const FilterFilter = () => {
           <Button
             className="bg-primary w-60 float-right mr-10 "
             textVariant="white"
-            text="Devam Et"
+            text="Continue"
             disabled={!isFormValid}
             onClick={() => {
               handleButtonClick();
