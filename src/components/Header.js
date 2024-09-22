@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Tiny } from 'components';
 import PropTypes from 'prop-types';
 
 const Header = (props) => {
@@ -15,7 +14,7 @@ const Header = (props) => {
   } = props;
   return (
     <div className={`flex mb-1 items-end ${className}`}>
-      <Tiny className={labelClassName} weight="semibold">
+      <div className={labelClassName}>
         {/* label area */}
         {labelElement || (
           <label htmlFor={id}>
@@ -24,12 +23,8 @@ const Header = (props) => {
           </label>
         )}
         {/* error area */}
-      </Tiny>
-      {errors ? (
-        <Tiny variant="error" className="ml-2">
-          {errors}
-        </Tiny>
-      ) : null}
+      </div>
+      {errors ? <div className="ml-2">{errors}</div> : null}
     </div>
   );
 };

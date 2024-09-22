@@ -1,2 +1,2 @@
-/* eslint-disable no-undef */
-export const API_URL = 'http://localhost:5020/api';
+export const API_URL = 'https://api.schiphol.nl';
+export const API_URL_LOCAL = 'http://localhost:3001';

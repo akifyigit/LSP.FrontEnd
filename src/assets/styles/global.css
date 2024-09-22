@@ -55,7 +55,6 @@ input[type='number'] {
 }
 
 .main-bg {
-  background-image: url('/src/assets/images/lecture_schedule_background.png');
   background-size: cover;
   opacity: 0.6;
   position: absolute;

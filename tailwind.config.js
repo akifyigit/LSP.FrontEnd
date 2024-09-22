@@ -85,14 +85,17 @@ module.exports = {
       'design-alt': '0px 3px 6px 2px rgba(102, 102, 102, 0.2)',
       'design-tutorial':
         '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 45px rgba(0, 0, 0, 0.25)',
-      'none': 'none',
+      none: 'none',
     },
     extend: {
       spacing: {
+        '120vh': '120vh',
+        '100vh': '100vh',
+        '96vh': '96vh',
         '80vh': '80vh',
         '70vh': '70vh',
         '40vh': '40vh',
-        '40vw': '40vw'
+        '40vw': '40vw',
       },
     },
   },

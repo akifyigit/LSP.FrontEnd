@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Button } from 'components';
 import { useNavigate } from 'react-router-dom';
 
 const NotFound = () => {
@@ -16,12 +15,12 @@ const NotFound = () => {
           This Page could not be found
         </p>
       </div>
-      <Button
-        text="Back Home"
-        className="w-40 h-12 bg-primary"
-        textVariant="white"
-        onClick={() => navigate('/dashboard')}
-      />
+      <button
+        className="w-40 h-12 bg-primary text-white"
+        onClick={() => navigate('/')}
+      >
+        Go Back
+      </button>
     </div>
   );
 };

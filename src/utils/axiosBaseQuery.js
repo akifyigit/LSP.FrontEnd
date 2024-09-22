@@ -5,11 +5,12 @@ const axiosParameterBuilder = (config) => {
   const { method = 'GET', headers = {}, data = {} } = config;
 
   // #region HEADERS
-  const token = localStorage.getItem('clientToken');
   const headerParameters = {
     Accept: 'application/json',
-    Authorization: `Bearer ${token}`,
     'Content-Type': 'application/json',
+    app_id: 'ab593425',
+    app_key: '7011bd753c0c63cea48fd42a7f64a6d9',
+    Resourceversion: 'v4',
     ...headers,
   };
 
